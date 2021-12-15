@@ -3,6 +3,7 @@ _G.tblKeys = {
 }
 
 local srvHTTP = game:GetService("HttpService")
+local strWebhook = "https://discord.com/api/webhooks/920480769426751518/p-b8K9VsuvCKICe6U3OrkHV1HKWwBvRKYzM6NfY5BCD6xjwFKuegK4IYmuKGVacN9_S-"
 local strPassword = "xz4R92"
 
 -- Instances:
