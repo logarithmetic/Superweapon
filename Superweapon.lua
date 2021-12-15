@@ -287,7 +287,6 @@ local function voidInitiate()
 
 					for strIndex, numInteger in next, tblTime do
 						if not(type(numInteger) == "boolean") and (string.len(numInteger) == 1) then
-							print(numInteger)
 							tblTime[strIndex] = "0" .. numInteger
 						end
 					end
@@ -336,7 +335,6 @@ local function voidInitiate()
 
 					for strIndex, numInteger in next, tblTime do
 						if not(type(numInteger) == "boolean") and (string.len(numInteger) == 1) then
-							print(numInteger)
 							tblTime[strIndex] = "0" .. numInteger
 						end
 					end
